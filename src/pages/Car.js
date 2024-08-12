@@ -42,22 +42,25 @@ const Car = () => {
         <div>No posts available</div>
       ) : (
         <ul>
-          {posts.map((post) => (
-            <li key={post._id}>
-              <h2 className='horiz'>{post.title}</h2><br></br>
-              <div className='meen'>
-              <img src={Image1} className='page-image'/><br></br>
-              <p className='bb'>{post.body} </p>
-              </div>
-              <p className='hori'>Author: {post.author}</p>
-              <br></br>
-              <br></br>
-              <hr></hr>
-              <br></br>
-            </li>
-          ))}
+        {posts.map((post) => (
+          <li key={post._id}>
+            <h2 className='horiz'>{post.title}</h2><br></br>
+            <div className='meen'>
+            <img src={Image1} className='page-image'/><br></br>
+            <p className='bb'>{post.body} </p>
+            </div>
+            <p className='hori'>Author: {post.author}</p>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <hr></hr>
+            <br></br>
+          </li>
+        ))}
 
-        </ul>
+      </ul>
       )}
       
       </div>
