@@ -1,0 +1,178 @@
+.App{
+    --tw-bg-opacity: 1;
+    background-color: rgb(37 51 60 / var(--tw-bg-opacity));
+     height: 120vh;
+    }
+    
+    
+    .container{
+        display: flex;
+        gap:70px;
+    }
+    
+    
+    
+    .card-image {
+        width: 750px; /* Adjust the width as needed */
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding-top: 0px;
+       
+    }
+    
+    
+    
+    .card2:hover{
+        transform: scale(1.1);
+    }
+    
+    .card-image2{
+        width:500px;
+        height:200px;
+       
+    }
+    
+    .card {
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    }
+    
+    .card2{
+        padding-top: 30px;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .card3{
+        padding-top: 40px;
+        padding-left: 20px;
+        width:500px;
+        height:200px;
+    }
+    
+    .card4{
+        padding-left: 20px;
+        width:500px;
+        height:200px;
+    }
+    .card-description{
+        color:red;
+    }
+    
+    .card-title{
+     color: black;
+    }
+    
+    .text{
+        padding:2px 16px;
+    }
+    
+    
+    
+    .health{
+     padding-top: 40px;
+     --tw-bg-opacity: 1;
+     background-color: rgb(27 41 50 / var(--tw-bg-opacity));
+     height: 70vh;
+    }
+    
+    .auto{
+        padding-top: 80px;
+        --tw-bg-opacity: 1;
+        background-color: rgb(27 41 50 / var(--tw-bg-opacity));
+        height: 70vh;
+    }
+    
+    
+    .tech{
+        padding-top: 60px;
+        --tw-bg-opacity: 1;
+        background-color: rgb(27 41 50 / var(--tw-bg-opacity));
+        height: 80vh;
+    }
+    
+    
+    .oops{
+        display: flex;
+        gap:350px;
+    }
+    
+    .header{
+        color: white;
+        padding-left: 30px;
+        text-decoration: underline;
+        font-size:x-large;
+    }
+    
+    
+    .link{
+        color: purple;
+        cursor: pointer;
+    }
+    
+    .card-description{
+        color: white;
+    }
+    
+    .post-container{
+        --tw-bg-opacity: 1;
+    background-color: rgb(37 51 60 / var(--tw-bg-opacity));
+     height: 2000px;
+     padding-left: 30px;
+     padding-top: 20px;
+    }
+    
+    
+    .hori{
+        color: black;
+    }
+    
+    .horiz{
+     
+        color: white;
+        font-size: large;
+    }
+    
+    .horizz{
+        color:black;
+        text-decoration: underline;
+        font-size:x-large;
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .card, .card2 {
+            padding-left: 0;
+            padding-right: 0;
+            margin-bottom: 20px;
+        }
+    
+        .card-image, .card-image2 {
+            width: 100%;
+            max-width: none;
+        }
+    
+        .text {
+            padding: 10px;
+        }
+    
+        .health, .auto, .tech {
+            height: 500px;
+            padding: 20px 0;
+         
+        }
+    
+        .header {
+            font-size: large;
+            padding-left: 15px;
+        }
+
+        .oops{
+            gap:0px;
+        }
+    }
