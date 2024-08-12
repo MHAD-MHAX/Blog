@@ -20,6 +20,12 @@
        
     }
     
+    .page-image{
+        width: 750px; /* Adjust the width as needed */
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding-top: 0px;
+    }
     
     
     .card2:hover{
@@ -119,7 +125,7 @@
         --tw-bg-opacity: 1;
     background-color: rgb(37 51 60 / var(--tw-bg-opacity));
      height: 2000px;
-     padding-left: 30px;
+     padding-left: 20px;
      padding-top: 20px;
     }
     
@@ -175,4 +181,43 @@
         .oops{
             gap:0px;
         }
+
+
+     .meen{
+        height:250px;
+     }   
+
+     
+      .page-image{
+        width:200px;
+       
+      }
+
+
+    .bb{
+    font-size: x-small;
+    padding-left: 0px;
+    padding-top: 0px;
+    width:20px;
+    }
+
+    .post-container{
+        height:190vh
+    }
+
+
+      
+    }
+
+
+
+    .meen{
+        display: flex;
+    }
+
+    .bb{
+        width:600px;
+        padding-left: 10px;
+        padding-top: 10px;
+        color: white;
     }

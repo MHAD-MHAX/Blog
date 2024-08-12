@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchPosts } from '../apiService3';
+import { fetchPosts } from '../apiService2';
 
 import "../App.css";
 
@@ -45,8 +45,13 @@ const Car = () => {
           {posts.map((post) => (
             <li key={post._id}>
               <h2 className='horiz'>{post.title}</h2><br></br>
-              <img src={Image1} className='card-image'/><br></br>
-              <p className='hori'>Author: {post.author}</p><br></br>
+              <div className='meen'>
+              <img src={Image1} className='page-image'/><br></br>
+              <p className='bb'>{post.body} </p>
+              </div>
+              <p className='hori'>Author: {post.author}</p>
+              <br></br>
+              <br></br>
               <hr></hr>
               <br></br>
             </li>
