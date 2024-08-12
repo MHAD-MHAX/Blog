@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchPosts } from '../apiService2';
+import { fetchPosts } from '../apiService3';
 
 import "../App.css";
 
