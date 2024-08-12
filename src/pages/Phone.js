@@ -52,6 +52,7 @@ const Phone = () => {
               <p className='hori'>Author: {post.author}</p>
               <br></br>
               <br></br>
+              <br></br>
               <hr></hr>
               <br></br>
             </li>
